@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="es">
+ <head> 
+  <meta charset="utf-8"> 
+  <title>Ver Anime Online HD  — AnimeFLV</title> 
+  <meta property="og:title" content="Anime Online - AnimeFLV"> 
+  <meta name="google-site-verification" content="JxH0mAUU_FZ1FqciSq1lb8WmH8WMDKwhSoWmW31ze8U"> 
+  <meta content="es" http-equiv="content-language"> 
+  <meta content="es" name="language"> 
+  <meta property="og:site_name" content="AnimeFLV"> 
+  <link rel="canonical" href="https://www3.animeflv.net"> 
+  <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.animeflv.net"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="depion" content="El mejor portal de anime online para latinoamérica, encuentra animes clásicos, animes del momento, animes más populares y mucho más, todo en animeflv, tu fuente de anime diaria."> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic" rel="stylesheet" type="text/css"> 
+  <link rel="stylesheet" type="text/css" href="/assets/animeflv/css/font-awesome.css"> 
+  <link rel="stylesheet" type="text/css" href="/assets/animeflv/css/css.css?v=1.3.4"> 
+  <link rel="stylesheet" type="text/css" href="/assets/animeflv/css/bootstrap.css"> 
+ </head>
+ <body>
+  <div id="katsu-final-data">
+   {"extraInfo":[{"value":""}],"output":{"lastAnimes":[{"image":"","moduleID":"0","link":"","title":""}],"lastEpisodes":[{"link":"","image":"","title":"","moduleID":"0","episode":""}]},"request":"https:\/\/www3.animeflv.net","headers":[{"key":"","value":""}],"loadJavascript":"false","javaScript":"","method":"get"}
+  </div>
+  <p type="text/javap" src="/assets/animeflv/js/modernizr.js"></p> 
+  <p src="https://apis.google.com/js/platform.js"></p> 
+  <meta name="verify-admitad" content="34e2b77cc8"> 
+  <meta content="es" http-equiv="content-language"> 
+  <meta content="es" name="language"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta property="fb:app_id" content="1730508916998105"> 
+  <link rel="manifest" href="/manifest.json"> 
+  <meta name="monetag" content="ead37e1f95ad5b49c1acf5dfea76754c">   
+  <div id="fb-root"></div> 
+  <p async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v6.0&amp;appId=1730508916998105&amp;autoLogAppEvents=1"></p> 
+  <p src="/js/ads.js"></p> 
+  <!--
+    <div class="FollowUs">
+        <div class="Container">
+        <div class="close-dv">
+            <button class="close-social"><i class="fa-times"></i></button>
+        </div>
+        <aside>
+            <div class="ttl">¿Ya sigues nuestras Redes Sociales?</div>
+            <p>Si quieres mantenerte informado de nuestros proximos proyectos, no olvides visitar nuestras redes sociales</p>
+        </aside>
+        <ul>
+            <li class="fcb">
+                <a href="https://www.facebook.com/groups/armyanime" target="_blank">
+                    <i class="fa-facebook"></i>
+                    <span>@Grupo Anime Army</span>
+                </a>
+            </li>
+            <li class="twt">
+                <a href="https://twitter.com/ArmyAnime_" target="_blank">
+                    <i class="fa-twitter"></i>
+                    <span>@Anime Army</span>
+                </a>
+            </li>
+            <li class="nst">
+                <a href="https://www.instagram.com/animearmy.jp/" target="_blank">
+                    <i class="fa-instagram"></i>
+                    <span>@Anime Army</span>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+--> 
+  <!--<all>--> 
+  <div class="Wrapper"> 
+   <!--<Header>--> 
+   <header class="Header"> 
+    <div class="Mid"> 
+     <div class="Container"> 
+      <div class="AX Row AFluid"> 
+       <div class="Logo"> 
+        <a href="/"><img src="/assets/animeflv/img/logo.png?v=2.3" alt="AnimeFLV"></a> 
+       </div> 
+       <div class="AFixed"> 
+        <input type="checkbox" hidden id="BtnMenu"> 
+        <label for="BtnMenu" class="BtnMenu fa-bars"><span>MENU</span></label> 
+        <nav class="CX Row"> 
+         <input type="checkbox" hidden id="Hd-Search"> 
+         <div class="Search"> 
+          <!-- Agrega la class "On" para mostrar los resultados --> 
+          <form action="/browse" method="get"> 
+           <input name="q" type="text" id="search-anime" autocomplete="off" placeholder="Buscar..."> 
+           <button><i class="fa-search"></i></button> 
+          </form> 
+          <div class="DpdwCnt TtCn"> 
+           <ul class="ListResult"></ul> 
+          </div> 
+         </div> 
+         <div class="Login"> 
+          <input type="checkbox" hidden id="DpdwLnk-Login"> 
+          <label for="DpdwLnk-Login" class="Button"><span class="fa-user">Login</span></label> 
+          <div class="DpdwCnt TtCn"> 
+           <div class="Title">
+            INICIAR SESION
+           </div> 
+           <form action="/auth/sign_in" class="form-horizontal" method="POST"> 
+            <label class="Form-Icon Right"> <input name="email" type="text" placeholder="E-Mail"> <i class="fa-user"></i> </label> 
+            <label class="Form-Icon Right"> <input name="password" type="password" placeholder="Contraseña"> <input type="hidden" name="remember_me" value="1"> <i class="fa-lock"></i> </label> 
+            <button type="submit">INICIAR SESIÓN</button> 
+            <a href="/auth/facebook/sign_in" rel="nofollow" class="Button fb_login"><span class="fa-facebook">INICIAR SESION CON FB</span></a> 
+            <div class="Links"> 
+             <a href="/auth/sign_up" rel="nofollow">Registrate</a> 
+             <a href="/auth/password/new" rel="nofollow">¿Olvidaste tu contraseña?</a> 
+            </div> 
+           </form> 
+          </div> 
+         </div> 
+         <ul class="Menu"> 
+          <li><a href="/">Inicio</a></li> 
+          <li><a href="/browse">Directorio Anime</a></li> 
+         </ul> 
+         <!--<ul class="ListSocial BFixed">
+                                <li><a href="https://www.facebook.com/armyanime.jp"  rel="nofollow" target="_blank" class="fa-facebook"></a></li>
+                            </ul>--> 
+        </nav> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </header> 
+   <!--<a class="lvbx" href="https://www.tiktok.com/@kotorihikari/live" target="_blank" rel="noreferrer noopener"><span>Kotori Hikari en TIKTOK</span> está en vivo <i class="lvic"></i></a>--> 
+   <!--<Body>--> 
+   <div class="Body"> 
+    <div class="Container"> 
+     <div class="AnflvTl"> 
+      <h1><strong>AnimeFLV</strong> tu fuente de anime online gratis en HD</h1> 
+     </div> 
+     <div class="BX Row BFluid Sp20"> 
+      <aside class="Sidebar BFixed"> 
+       <!--<a href="https://www.twitch.tv/kotorihikari/about" rel="nofollow" target="_blank"><img src="https://animeflv.net/assets/animeflv/img/kotori.png" alt="Kotori Twitch"></a>--> 
+       <!--<a href="https://www.twitch.tv/linavermillion/about" rel="nofollow" target="_blank"><img src="https://animeflv.net/assets/animeflv/img/lina-boton.png" alt="Lina Twitch"></a> --> 
+       <!--
+            <a href="https://bit.ly/3hKQ7pB" rel="nofollow" target="_blank"><img src="https://animeflv.net/assets/animeflv/img/300x250.png" alt="Wallpepe"></a>
+
+            <a href="https://www.facebook.com/armyanime.jp" target="_blank" rel="nofollow"><img src="https://animeflv.net/assets/animeflv/img/fb-flv.png" alt="Facebook AnimeFLV"></a> 
+
+            <br /><br />
+                 --> 
+       <div class="Wdgt Emision"> 
+        <input type="checkbox" hidden id="WdgtLink-B"> 
+        <div class="Top fa-play">
+         <strong>ANIMES EN EMISIÓN</strong> 
+         <label for="WdgtLink-B" class="WdgtLink fa-chevron-down"></label>
+        </div> 
+        <div class="Bod ScrlV Fl"> 
+         <ul class="ListSdbr"> 
+          <li><a href="/anime/one-piece-tv" class="fa-play-circle">One Piece <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/detective-conan" class="fa-play-circle">Detective Conan <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/shadowverse-flame" class="fa-play-circle">Shadowverse Flame <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/nierautomata-ver11a" class="fa-play-circle">NieR:Automata Ver1.1a <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/megami-no-cafe-terrace" class="fa-play-circle">Megami no Café Terrace <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/oshi-no-ko" class="fa-play-circle">[Oshi No Ko] <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/shy" class="fa-play-circle">Shy <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/sengoku-youko" class="fa-play-circle">Sengoku Youko <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/ookami-to-koushinryou-merchant-meets-the-wise-wolf" class="fa-play-circle">Ookami to Koushinryou: Merchant Meets the Wise Wolf <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/tensei-shitara-slime-datta-ken-3rd-season" class="fa-play-circle">Tensei shitara Slime Datta Ken 3rd Season <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/the-fable" class="fa-play-circle">The Fable <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/yozakurasan-chi-no-daisakusen" class="fa-play-circle">Yozakura-san Chi no Daisakusen <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/karasu-wa-aruji-wo-erabanai" class="fa-play-circle">Karasu wa Aruji wo Erabanai <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/boku-no-hero-academia-7th-season" class="fa-play-circle">Boku no Hero Academia 7th Season <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/code-geass-dakkan-no-roze" class="fa-play-circle">Code Geass: Dakkan no Rozé <span class="Type ova">OVA</span></a></li> 
+          <li><a href="/anime/maougun-saikyou-no-majutsushi-wa-ningen-datta" class="fa-play-circle">Maougun Saikyou no Majutsushi wa Ningen datta <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/isekai-suicide-squad" class="fa-play-circle">Isekai Suicide Squad <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/boku-no-tsuma-wa-kanjou-ga-nai" class="fa-play-circle">Boku no Tsuma wa Kanjou ga Nai <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru" class="fa-play-circle">Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru. <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/tasuuketsu" class="fa-play-circle">Tasuuketsu <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/tokidoki-bosotto-russiago-de-dereru-tonari-no-alyasan" class="fa-play-circle">Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/gimai-seikatsu" class="fa-play-circle">Gimai Seikatsu <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/tasogare-out-focus" class="fa-play-circle">Tasogare Out Focus <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai" class="fa-play-circle">Ore wa Subete wo "Parry" suru: Gyaku Kanchigai no Sekai Saikyou wa Boukensha ni Naritai <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/giji-harem" class="fa-play-circle">Giji Harem <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/ramen-akaneko" class="fa-play-circle">Ramen Akaneko <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made" class="fa-play-circle">Hazurewaku no "Joutai Ijou Skill" de Saikyou ni Natta Ore ga Subete wo Juurin suru made <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/senpai-wa-otokonoko" class="fa-play-circle">Senpai wa Otokonoko <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/25jigen-no-ririsa" class="fa-play-circle">2.5-jigen no Ririsa <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/dungeon-no-naka-no-hito" class="fa-play-circle">Dungeon no Naka no Hito <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/kono-sekai-wa-fukanzen-sugiru" class="fa-play-circle">Kono Sekai wa Fukanzen Sugiru <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/madougushi-dahliya-wa-utsumukanai" class="fa-play-circle">Madougushi Dahliya wa Utsumukanai <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/mob-kara-hajimaru-tansaku-eiyuutan" class="fa-play-circle">Mob kara Hajimaru Tansaku Eiyuutan <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/monogatari-series-off-monster-season" class="fa-play-circle">Monogatari Series: Off &amp; Monster Season <span class="Type ova">OVA</span></a></li> 
+          <li><a href="/anime/tensui-no-sakunahime" class="fa-play-circle">Tensui no Sakuna-hime <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/elfsan-wa-yaserarenai" class="fa-play-circle">Elf-san wa Yaserarenai. <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/nige-jouzu-no-wakagimi" class="fa-play-circle">Nige Jouzu no Wakagimi <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/shoushimin-series" class="fa-play-circle">Shoushimin Series <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/tsue-to-tsurugi-no-wistoria" class="fa-play-circle">Tsue to Tsurugi no Wistoria <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/fairy-tail-100nen-quest" class="fa-play-circle">Fairy Tail: 100-nen Quest <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/kami-no-tou-ouji-no-kikan" class="fa-play-circle">Kami no Tou: Ouji no Kikan <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/shikanoko-nokonoko-koshitantan" class="fa-play-circle">Shikanoko Nokonoko Koshitantan <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta" class="fa-play-circle">VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/na-nare-hana-nare" class="fa-play-circle">Na Nare Hana Nare <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu" class="fa-play-circle">Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/mayonaka-punch" class="fa-play-circle">Mayonaka Punch <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/isekai-shikkaku" class="fa-play-circle">Isekai Shikkaku <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita" class="fa-play-circle">Katsute Mahou Shoujo to Aku wa Tekitai shiteita. <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii" class="fa-play-circle">Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/koi-wa-futago-de-warikirenai" class="fa-play-circle">Koi wa Futago de Warikirenai <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/bye-bye-earth" class="fa-play-circle">Bye Bye, Earth <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka" class="fa-play-circle">Naze Boku no Sekai wo Daremo Oboeteinai no ka? <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/atri-my-dear-moments" class="fa-play-circle">Atri: My Dear Moments <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/make-heroine-ga-oosugiru" class="fa-play-circle">Make Heroine ga Oosugiru! <span class="Type tv">Anime</span></a></li> 
+          <li><a href="/anime/kinnikuman-kanpeki-choujin-shisohen" class="fa-play-circle">Kinnikuman: Kanpeki Chоujin Shiso-hen <span class="Type tv">Anime</span></a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </aside> 
+      <main class="Main"> 
+       <!--<Episodios>--> 
+       <div class="Title Page"> 
+        <h2>Últimos episodios</h2> 
+        <div class="Order"> 
+         <a href="#" class="Active">HOY</a> 
+        </div> 
+       </div> 
+       <ul class="ListEpisodios AX Rows A06 C04 D03"> 
+        <li> <a href="/ver/mayonaka-punch-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4030.jpg" alt="Mayonaka Punch"></span> <span class="Capi">Episodio 4</span> <strong class="Title">Mayonaka Punch</strong> </a> </li> 
+        <li> <a href="/ver/na-nare-hana-nare-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4028.jpg" alt="Na Nare Hana Nare"></span> <span class="Capi">Episodio 4</span> <strong class="Title">Na Nare Hana Nare</strong> </a> </li> 
+        <li> <a href="/ver/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu-5" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4029.jpg" alt="Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu"></span> <span class="Capi">Episodio 5</span> <strong class="Title">Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu</strong> </a> </li> 
+        <li> <a href="/ver/kinnikuman-kanpeki-choujin-shisohen-3" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4039.jpg" alt="Kinnikuman: Kanpeki Chоujin Shiso-hen"></span> <span class="Capi">Episodio 3</span> <strong class="Title">Kinnikuman: Kanpeki Chоujin Shiso-hen</strong> </a> </li> 
+        <li> <a href="/ver/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4027.jpg" alt="VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta"></span> <span class="Capi">Episodio 4</span> <strong class="Title">VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta</strong> </a> </li> 
+        <li> <a href="/ver/shikanoko-nokonoko-koshitantan-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4026.jpg" alt="Shikanoko Nokonoko Koshitantan"></span> <span class="Capi">Episodio 4</span> <strong class="Title">Shikanoko Nokonoko Koshitantan</strong> </a> </li> 
+        <li> <a href="/ver/kami-no-tou-ouji-no-kikan-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4025.jpg" alt="Kami no Tou: Ouji no Kikan"></span> <span class="Capi">Episodio 4</span> <strong class="Title">Kami no Tou: Ouji no Kikan</strong> </a> </li> 
+        <li> <a href="/ver/yozakurasan-chi-no-daisakusen-17" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/3974.jpg" alt="Yozakura-san Chi no Daisakusen"></span> <span class="Capi">Episodio 17</span> <strong class="Title">Yozakura-san Chi no Daisakusen</strong> </a> </li> 
+        <li> <a href="/ver/fairy-tail-100nen-quest-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4024.jpg" alt="Fairy Tail: 100-nen Quest"></span> <span class="Capi">Episodio 4</span> <strong class="Title">Fairy Tail: 100-nen Quest</strong> </a> </li> 
+        <li> <a href="/ver/one-piece-tv-1113" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/7.jpg" alt="One Piece"></span> <span class="Capi">Episodio 1113</span> <strong class="Title">One Piece</strong> </a> </li> 
+        <li> <a href="/ver/the-fable-17" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/3969.jpg" alt="The Fable"></span> <span class="Capi">Episodio 17</span> <strong class="Title">The Fable</strong> </a> </li> 
+        <li> <a href="/ver/make-heroine-ga-oosugiru-3" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4038.jpg" alt="Make Heroine ga Oosugiru!"></span> <span class="Capi">Episodio 3</span> <strong class="Title">Make Heroine ga Oosugiru!</strong> </a> </li> 
+        <li> <a href="/ver/atri-my-dear-moments-3" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4037.jpg" alt="Atri: My Dear Moments"></span> <span class="Capi">Episodio 3</span> <strong class="Title">Atri: My Dear Moments</strong> </a> </li> 
+        <li> <a href="/ver/nige-jouzu-no-wakagimi-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4021.jpg" alt="Nige Jouzu no Wakagimi"></span> <span class="Capi">Episodio 4</span> <strong class="Title">Nige Jouzu no Wakagimi</strong> </a> </li> 
+        <li> <a href="/ver/elfsan-wa-yaserarenai-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4020.jpg" alt="Elf-san wa Yaserarenai."></span> <span class="Capi">Episodio 4</span> <strong class="Title">Elf-san wa Yaserarenai.</strong> </a> </li> 
+        <li> <a href="/ver/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-3" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4036.jpg" alt="Naze Boku no Sekai wo Daremo Oboeteinai no ka?"></span> <span class="Capi">Episodio 3</span> <strong class="Title">Naze Boku no Sekai wo Daremo Oboeteinai no ka?</strong> </a> </li> 
+        <li> <a href="/ver/tensui-no-sakunahime-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4019.jpg" alt="Tensui no Sakuna-hime"></span> <span class="Capi">Episodio 4</span> <strong class="Title">Tensui no Sakuna-hime</strong> </a> </li> 
+        <li> <a href="/ver/boku-no-tsuma-wa-kanjou-ga-nai-5" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4002.jpg" alt="Boku no Tsuma wa Kanjou ga Nai"></span> <span class="Capi">Episodio 5</span> <strong class="Title">Boku no Tsuma wa Kanjou ga Nai</strong> </a> </li> 
+        <li> <a href="/ver/monogatari-series-off-monster-season-4" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4018.jpg" alt="Monogatari Series: Off &amp; Monster Season"></span> <span class="Capi">Episodio 4</span> <strong class="Title">Monogatari Series: Off &amp; Monster Season</strong> </a> </li> 
+        <li> <a href="/ver/mob-kara-hajimaru-tansaku-eiyuutan-5" class="fa-play"> <span class="Image"><img src="/uploads/animes/thumbs/4017.jpg" alt="Mob kara Hajimaru Tansaku Eiyuutan"></span> <span class="Capi">Episodio 5</span> <strong class="Title">Mob kara Hajimaru Tansaku Eiyuutan</strong> </a> </li> 
+       </ul> 
+       <div class="Title Page fa-star"> 
+        <h2>Últimos animes agregados</h2> 
+        <div class="Order"> 
+         <a href="#" class="Active">HOY</a> 
+        </div> 
+       </div> 
+       <!--<Animes>--> 
+       <ul class="ListAnimes AX Rows A06 C04 D03"> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/kinnikuman-kanpeki-choujin-shisohen"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4039.jpg" alt="Kinnikuman: Kanpeki Chоujin Shiso-hen">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Kinnikuman: Kanpeki Chоujin Shiso-hen</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Kinnikuman: Kanpeki Chоujin Shiso-hen</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">3.2</span></p> 
+           <p>Nueva serie de Kinnikuman</p> 
+           <a class="Button Vrnmlk" href="/anime/kinnikuman-kanpeki-choujin-shisohen">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/make-heroine-ga-oosugiru"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4038.jpg" alt="Make Heroine ga Oosugiru!">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Make Heroine ga Oosugiru!</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Make Heroine ga Oosugiru!</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.5</span></p> 
+           <p>Chicas que no lograron conquistar los corazones de las personas que les gustaban: protagonistas perdedoras, es decir, "Makeines". Anna Yanami, una chica que adora la comida y la clásica amiga de la infancia. Lemon Yakishio, una chica repleta de energía y muy divertida. Chika Komari, una chica tím...</p> 
+           <a class="Button Vrnmlk" href="/anime/make-heroine-ga-oosugiru">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/atri-my-dear-moments"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4037.jpg" alt="Atri: My Dear Moments">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Atri: My Dear Moments</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Atri: My Dear Moments</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.6</span></p> 
+           <p>En un futuro próximo, un repentino e inexplicable aumento del nivel del mar sumergió bajo el agua la mayor parte de la civilización humana. Natsuki Ikaruga, un joven que perdió a su madre y una pierna en un accidente unos años antes, decide abandonar desilusionado la ciudad y lo dura que es la ...</p> 
+           <a class="Button Vrnmlk" href="/anime/atri-my-dear-moments">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4036.jpg" alt="Naze Boku no Sekai wo Daremo Oboeteinai no ka?">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Naze Boku no Sekai wo Daremo Oboeteinai no ka?</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Naze Boku no Sekai wo Daremo Oboeteinai no ka?</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.4</span></p> 
+           <p>En un mundo en el que los humanos salieron victoriosos de una gran guerra, Kai protege unas criptas selladas que contienen a sus enemigos. Pero cuando el "Mundo Renacido" reescribe la historia, se ve en una realidad alternativa en la que la humanidad perdió la guerra y nadie de los que conoce lo re...</p> 
+           <a class="Button Vrnmlk" href="/anime/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/bye-bye-earth"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4035.jpg" alt="Bye Bye, Earth">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Bye Bye, Earth</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Bye Bye, Earth</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.2</span></p> 
+           <p>Belle Lablac no encaja al ser la única humana en un mundo repleto de animales antropomórficos. No tiene colmillos, ni piel, ni escamas, ni garras. Sola y deseos de descubrir de dónde procede, Belle parte a un viaje para encontrar respuestas a las preguntas que la acechan. Portando únicamente su ...</p> 
+           <a class="Button Vrnmlk" href="/anime/bye-bye-earth">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/koi-wa-futago-de-warikirenai"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4034.jpg" alt="Koi wa Futago de Warikirenai">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Koi wa Futago de Warikirenai</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Koi wa Futago de Warikirenai</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.2</span></p> 
+           <p>La vida amorosa de Jun Shirasaki cambia por completo cuando se ve atrapado entre las gemelas Jinguji, dos amigas de la infancia que son como el día y la noche. Rumi, la hermana mayor, es una chica de actitud más masculina pero muy dulce y tierna, mientras que Naori es una chica extremadamente lind...</p> 
+           <a class="Button Vrnmlk" href="/anime/koi-wa-futago-de-warikirenai">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4033.jpg" alt="Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.3</span></p> 
+           <p>Segunda temporada de Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen</p> 
+           <a class="Button Vrnmlk" href="/anime/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4032.jpg" alt="Katsute Mahou Shoujo to Aku wa Tekitai shiteita.">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Katsute Mahou Shoujo to Aku wa Tekitai shiteita.</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Katsute Mahou Shoujo to Aku wa Tekitai shiteita.</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.3</span></p> 
+           <p>El manga se sumerge en la historia de Mira, una mente maestra astuta detrás de una organización malévola que invade y destruye todo a su paso. Su intelecto afilado y estratégico la ha catapultado a la cima de la jerarquía de esta organización nefasta. Un día, todo cambia cuando entra en escen...</p> 
+           <a class="Button Vrnmlk" href="/anime/katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/isekai-shikkaku"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4031.jpg" alt="Isekai Shikkaku">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Isekai Shikkaku</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Isekai Shikkaku</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.4</span></p> 
+           <p>Una aventura en otro mundo con chicas guapas a tu lado y poderes similares a los de los videojuegos… suena como el sueño de un fanático del anime, ¿verdad? Pero no lo es para el melancólico autor Osamu Dazai, que preferiría literalmente caer muerto. Los videojuegos aún no se han inventado cu...</p> 
+           <a class="Button Vrnmlk" href="/anime/isekai-shikkaku">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/mayonaka-punch"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4030.jpg" alt="Mayonaka Punch">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Mayonaka Punch</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Mayonaka Punch</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.5</span></p> 
+           <p>Te presentamos a Masaki, antigua componente del grupo de NewTubers llamado Harikiri Sisters. Tras un problema en su carrera, es decir, que la expulsaran de repente en una transmisión, une fuerzas con Live, una compañera con habilidades sobrenaturales. Juntas aspirarán a crear el mejor contenido d...</p> 
+           <a class="Button Vrnmlk" href="/anime/mayonaka-punch">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4029.jpg" alt="Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.0</span></p> 
+           <p>Kayano Takumi muere accidentalmente a manos de un dios y reencarna. El dios le concede varias habilidades nuevas y lo envía a un peligroso bosque repleto de monstruos en otro mundo. En el bosque Takumi encuentra un niño y una niña que parecen gemelos, así que decide cuidarlos y los llama Allen y...</p> 
+           <a class="Button Vrnmlk" href="/anime/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/na-nare-hana-nare"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4028.jpg" alt="Na Nare Hana Nare">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Na Nare Hana Nare</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Na Nare Hana Nare</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">3.2</span></p> 
+           <p>Misora Kanata es una estudiante de primer año que forma parte del club de porristas de la preparatoria Takanosaki. Ganó un campeonato nacional en la secundaria, pero luego de cometer un error en una competencia, ya no puede saltar. Se une a sus amigas Suzuha, Shion, Anna, Onka y Megumi para formar...</p> 
+           <a class="Button Vrnmlk" href="/anime/na-nare-hana-nare">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4027.jpg" alt="VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">3.8</span></p> 
+           <p>Yuki Tanaka es una VTuber en Live-On, una de las mayores compañías de VTubers de Japón, donde toma el papel de Awayuki Kokorone, una señorita muy educada. Un día olvida cerrar un stream y los espectadores descubren su verdadera personalidad: bocona, malhablada y propensa a embriagarse tras un l...</p> 
+           <a class="Button Vrnmlk" href="/anime/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/shikanoko-nokonoko-koshitantan"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4026.jpg" alt="Shikanoko Nokonoko Koshitantan">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Shikanoko Nokonoko Koshitantan</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Shikanoko Nokonoko Koshitantan</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.2</span></p> 
+           <p>Koshi Torako, una estudiante de preparatoria, siente que algo frío le roza la cara. Al mirar hacia arriba ve a una chica cuya cornamenta se atoró en unos cables eléctricos. Ayudar a Shinakono, una chica venado muy peculiar, hace que la vida de Torako, una estudiante modélica (en apariencia únic...</p> 
+           <a class="Button Vrnmlk" href="/anime/shikanoko-nokonoko-koshitantan">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/kami-no-tou-ouji-no-kikan"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4025.jpg" alt="Kami no Tou: Ouji no Kikan">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Kami no Tou: Ouji no Kikan</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Kami no Tou: Ouji no Kikan</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.6</span></p> 
+           <p>Segunda temporada de Kami no Tou</p> 
+           <a class="Button Vrnmlk" href="/anime/kami-no-tou-ouji-no-kikan">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/fairy-tail-100nen-quest"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4024.jpg" alt="Fairy Tail: 100-nen Quest">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Fairy Tail: 100-nen Quest</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Fairy Tail: 100-nen Quest</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.5</span></p> 
+           <p>Fairy Tail es un gremio de magos reconocidos como el más poderoso de todo el Reino de Fiore. Su grupo más fuerte, compuesto por Natsu, Lucy, Happy, Grey, Erza, Wendy y Carla, se prepara para afrontar la legendaria "Misión de los 100 años", una misión incluso más difícil que las misiones de Cl...</p> 
+           <a class="Button Vrnmlk" href="/anime/fairy-tail-100nen-quest">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/tsue-to-tsurugi-no-wistoria"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4023.jpg" alt="Tsue to Tsurugi no Wistoria">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Tsue to Tsurugi no Wistoria</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Tsue to Tsurugi no Wistoria</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.7</span></p> 
+           <p>Will es un chico muy trabajador que se inscribe en una academia de magia con la esperanza de convertirse en un gran hechicero. Por desgracia, su plan tiene un fallo crítico: que no tiene la capacidad de usar magia. Las miradas de desprecio de sus compañeros e instructores hacen que Will se desanim...</p> 
+           <a class="Button Vrnmlk" href="/anime/tsue-to-tsurugi-no-wistoria">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/shoushimin-series"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4022.jpg" alt="Shoushimin Series">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Shoushimin Series</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Shoushimin Series</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.2</span></p> 
+           <p>Kobato decide convertirse en un ciudadano honrado tras vivir una dura experiencia conocida como "trabajo de sabiduría". Hace un pacto con Osanai, una compañera de clase con el mismo objetivo, y su plan es empezar la preparatoria de forma que tengan una vida tranquila. Sin embargo, sin saber por qu...</p> 
+           <a class="Button Vrnmlk" href="/anime/shoushimin-series">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/nige-jouzu-no-wakagimi"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4021.jpg" alt="Nige Jouzu no Wakagimi">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Nige Jouzu no Wakagimi</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Nige Jouzu no Wakagimi</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.5</span></p> 
+           <p>Año 1333, el shogunato de Kamakura se desmorona. Ashikaga Takauji, uno de los vasallos de confianza del shogunato, lo traiciona y organiza una rebelión. Hojo Tokiyuki, heredero legítimo, logra huir de la masacre junto a un sacerdote sintoista llamado Suwa Yorisige y llega hasta Kamakura. Tokiyuki...</p> 
+           <a class="Button Vrnmlk" href="/anime/nige-jouzu-no-wakagimi">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/elfsan-wa-yaserarenai"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4020.jpg" alt="Elf-san wa Yaserarenai.">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Elf-san wa Yaserarenai.</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Elf-san wa Yaserarenai.</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.1</span></p> 
+           <p>Naoe-kun, un terapeuta de masajes, está a punto de irse a casa a pasar el día cuando le toca una paciente bastante extraña. Esta encantadora dama tiene ojos esmeralda, orejas puntiagudas y creció en el bosque; todo en ella grita “elfo”, excepto una cosa: su cuerpo corpulento. Resulta que dej...</p> 
+           <a class="Button Vrnmlk" href="/anime/elfsan-wa-yaserarenai">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/tensui-no-sakunahime"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4019.jpg" alt="Tensui no Sakuna-hime">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Tensui no Sakuna-hime</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Tensui no Sakuna-hime</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">2.7</span></p> 
+           <p>En la antigua tierra de Yanato existen dos reinos: el Reino Superior, donde residen los dioses, y el Reino Inferior, donde residen los humanos. La princesa Sakuna es hija del dios de la guerra y de la diosa de la cosecha, pero se dedica a vivir holgazaneando. Un día es desterrada a la Isla de los O...</p> 
+           <a class="Button Vrnmlk" href="/anime/tensui-no-sakunahime">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/monogatari-series-off-monster-season"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4018.jpg" alt="Monogatari Series: Off &amp; Monster Season">
+            </figure> 
+            <span class="Type ova">OVA</span> 
+           </div> <h3 class="Title">Monogatari Series: Off &amp; Monster Season</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Monogatari Series: Off &amp; Monster Season</strong>
+           </div> 
+           <p><span class="Type ova">OVA</span> <span class="Vts fa-star">4.6</span></p> 
+           <p>Vacaciones de primavera, el breve intervalo entre el segundo y el tercer trimestre de clases en la preparatoria. Koyomi Araragi se encuentra con una chica tan linda que le hiela la sangre. Esta vampira ardiente, impulsiva y a la vez fría se hace llamar "Kiss-shot Acerola-orion Heart-under-blade". E...</p> 
+           <a class="Button Vrnmlk" href="/anime/monogatari-series-off-monster-season">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/mob-kara-hajimaru-tansaku-eiyuutan"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4017.jpg" alt="Mob kara Hajimaru Tansaku Eiyuutan">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Mob kara Hajimaru Tansaku Eiyuutan</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Mob kara Hajimaru Tansaku Eiyuutan</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">4.1</span></p> 
+           <p>Kaito Takagi es el típico estudiante de preparatoria que no destaca demasiado. Pasa los días explorando mazmorrasen Japón, matando slimes para conseguir algo de dinero. Siente una gran admiración por su amiga de la infancia, quien ahora es la chica más popular de la escuela. Un día se encuentr...</p> 
+           <a class="Button Vrnmlk" href="/anime/mob-kara-hajimaru-tansaku-eiyuutan">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+        <li> 
+         <article class="Anime alt B"> 
+          <a href="/anime/madougushi-dahliya-wa-utsumukanai"> <span class="Estreno"><span>ESTRENO</span></span> 
+           <div class="Image fa-play-circle-o"> 
+            <figure>
+             <img src="/uploads/animes/covers/4016.jpg" alt="Madougushi Dahliya wa Utsumukanai">
+            </figure> 
+            <span class="Type tv">Anime</span> 
+           </div> <h3 class="Title">Madougushi Dahliya wa Utsumukanai</h3> </a> 
+          <div class="Depion"> 
+           <div class="Title">
+            <strong>Madougushi Dahliya wa Utsumukanai</strong>
+           </div> 
+           <p><span class="Type tv">Anime</span> <span class="Vts fa-star">3.9</span></p> 
+           <p>Luego una vida de adicción al trabajo en Japón, Dahlia reencarna como una experta en magia en un nuevo mundo, pero esta segunda oportunidad está lejos de ser perfecta. Comprometida, traicionada y huérfana, todo antes de la luna de miel, ¡eso de verdad no lo esperaba! Descubre cómo Dahlia usa c...</p> 
+           <a class="Button Vrnmlk" href="/anime/madougushi-dahliya-wa-utsumukanai">VER ANIME</a> 
+          </div> 
+         </article> </li> 
+       </ul> 
+      </main> 
+      <!--</main>--> 
+     </div> 
+    </div> 
+    <p type="text/javap" src="//buyfrightencheckup.com/api/posts?token=LzJkLzU0L2ZkLzJkNTRmZGUxMTMxNzBmZjIwYTMwNzNjMDkzY2ViZjEzLmpz"></p> 
+   </div> 
+   <!--</Body>--> 
+   <!--<Footer>--> 
+   <footer class="Footer"> 
+    <div class="Container"> 
+     <div class="BX Row BFluid Sp20 NMb"> 
+      <div> 
+       <p> <span>Anime Online</span> - Ningún vídeo se encuentra alojado en nuestros servidores. </p> 
+       <nav class="mnftxt"> 
+        <a href="https://www.tikxd.com/es" title="Descargar videos de Tiktok">Descargar videos de Tiktok</a> 
+        <a href="/condiciones-de-uso.html">Términos y Condiciones</a> 
+        <a href="/politica-de-privacidad.html">Política de Privacidad</a> 
+        <a href="/sobre-animeflv.html">Sobre AnimeFLV</a> 
+        <a href="https://www4.hentaila.com/home">hentaila</a> 
+       </nav> 
+      </div> 
+      <ul class="ListSocial BFixed"> 
+       <li><a href="https://www.facebook.com/armyanime.jp/" target="_blank" class="fa-facebook"></a></li> 
+       <li><a href="https://www.youtube.com/c/kudasai" target="_blank" class="fa-youtube"></a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </footer> 
+   <!--</Footer>--> 
+  </div> 
+  <!--</all>--> 
+  <!-- Javap --> 
+  <p>var is_user = false;</p> 
+  <p src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></p> 
+  <p> $(document).ready(function(e) { $(".twtch .btn").click(function(){ $(".twtch-bx").remove(); $("#twitch-chat-embed").remove(); }); $(document).on('fullscreenchange', function(e){ var urlSrc = $(e.target).attr('src'); if(urlSrc.indexOf('twitch') === -1){ $(".twtch-bx").remove(); $("#twitch-chat-embed").remove(); } }); }); </p> 
+  <p type="text/javap" src="/assets/animeflv/js/jquery.typewatch.min.js"></p> 
+  <p type="text/javap" src="/assets/animeflv/js/scrlbr.js"></p> 
+  <p type="text/javap" src="/assets/animeflv/js/jquery.bxslider.min.js"></p> 
+  <p type="text/javap" src="/assets/animeflv/js/percircle.min.js"></p> 
+  <p type="text/javap" src="/assets/animeflv/js/funciones.js?v=1.1.23"></p> 
+  <p type="text/javap" src="/assets/animeflv/js/bootstrap.min.js"></p> 
+  <p type="text/javap" src="/assets/animeflv/js/alertify.js"></p> 
+  <!--[if lt IE 9]><p type="text/javap" src="/assets/animeflv/js/ie/css3mq.js"></p>
+<![endif]--> 
+  <!--[if lte IE 9]><p type="text/javap" src="/assets/animeflv/js/ie/ie.js"></p>
+<![endif]--> 
+  <!-- Global site tag (gtag.js) - Google Analytics --> 
+  <p async src="https://www.googletagmanager.com/gtag/js?id=G-WRD6JCRSM0"></p> 
+  <p> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-WRD6JCRSM0'); </p> 
+  <nop> 
+   <div style="display:none;"> 
+    <img src="//pixel.quantserve.com/pixel/p--mN3UcHCw6ueQ.gif" border="0" height="1" width="1" alt="Quantcast"> 
+   </div> 
+  </nop> 
+  <!-- End Quantcast tag --> 
+  <p id="dsq-count-scr" src="//https-animeflv-net.disqus.com/count.js" async></p>  
+  <script type="text/javascript">
+
+    document.write("<base href='https://www3.animeflv.net'/>");
+    function Header(key, value) {
+      this.key = key;
+      this.value = value;
+    }
+
+    function ExtraInfo(value) {
+      this.value = value;
+    }
+
+    function Output(lastEpisodes, lastAnimes) {
+      this.lastEpisodes = lastEpisodes;
+      this.lastAnimes = lastAnimes;
+    }
+
+    function LastAnimes(moduleID, image, link, title) {
+      this.moduleID = moduleID;
+      this.image = image;
+      this.link = link;
+      this.title = title;
+    }
+
+    function LastEpisodes(moduleID, image, link, title, episode) {
+      this.moduleID = moduleID;
+      this.image = image;
+      this.link = link;
+      this.title = title;
+      this.episode = episode;
+    }
+
+    function MainPageObject(request,headers,method,extraInfo,loadJavascript,javaScript,output) {
+        this.request = request;
+        this.headers = headers;
+        this.method = method;
+        this.extraInfo = extraInfo;
+        this.loadJavascript = loadJavascript;
+        this.javaScript = javaScript;
+        this.output = output;
+    }
+
+    var moduleID = '20031202';
+    var mainPageObject;
+    var output;
+    var headers = [];
+    var lastAnimes = [];
+    var lastEpisodes = [];
+    var extraInfo = [];
+    var savedData = document.getElementById('katsu-final-data');
+
+
+    var episodes = document.querySelectorAll('.ListEpisodios.AX.Rows.A06.C04.D03 li');
+    for (var x = 0; x < episodes.length; x++) {
+      var image = episodes[x].querySelector('.Image').querySelector('img').src;
+      var link = episodes[x].querySelector('a').href;
+      var title = episodes[x].querySelector('.Title').innerText;
+      var episode = episodes[x].querySelector('.Capi').innerText;
+      lastEpisodes.push(new LastEpisodes(moduleID, image, link, title, episode));
+    }
+
+    var animes = document.querySelectorAll('.ListAnimes.AX.Rows.A06.C04.D03 li');
+    for(var x = 0; x < animes.length; x++){
+        var image = animes[x].querySelector('.Image.fa-play-circle-o').querySelector('img').src;
+        var link = animes[x].querySelector('a').href;
+        var title = animes[x].querySelector('.Title').innerText;
+        lastAnimes.push(new LastAnimes(moduleID, image, link, title));
+    }
+
+    output = new Output(lastEpisodes, lastAnimes);
+    headers.push(new Header('', ''));
+    extraInfo.push(new ExtraInfo(''));
+    mainPageObject = new MainPageObject('', headers, '', extraInfo, '', '', output);
+    var finalJson = JSON.stringify(mainPageObject);
+    savedData.innerHTML = finalJson;
+  </script>
+ </body>
+</html>
